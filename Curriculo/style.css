@@ -1,0 +1,55 @@
+
+.content {
+    
+    color: white;
+    width: 60%; /* ou a largura que preferir */
+    margin: 0 auto; /* centraliza o contêiner */
+}
+
+body { 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/OIP.jpg);
+    background-color: #121212;
+}
+
+.Conhecimentos { 
+    font-size: 20px;
+}
+
+.OBJETIVOS { 
+    text-decoration: underline;
+    
+}
+
+.title { 
+    text-decoration: underline;
+}
+
+p { 
+    font-size: 20px;
+}
+
+a {
+    line-height: 2;
+    padding: 60px;
+    margin: 60px;
+    text-align: center; 
+    font-size: 20px;
+    
+}
+
+.sociais {
+    display: flex; /* Usa flexbox para alinhar imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 200px; /* Espaço entre as imagens */
+}
+
+img {
+    max-width: 150px; /* Limita a largura das imagens */
+    height: auto; /* Mantém a proporção */
+}
+
+
+    
