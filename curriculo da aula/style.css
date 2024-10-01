@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+body { 
+    background-color: #D3D3D3;
+}
+
+ul { 
+    list-style: none;
+}
+
+main { 
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 1rem;
+}
+
+.left { 
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgb(29, 29, 180);
+    border-radius: 50px;
+}
+
+.foto { 
+    position: relative;
+}
+
+.foto img { 
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 100%;
+}
+
+.foto h1 { 
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+i { 
+    color: rgb(29, 29, 180)
+}
+
+.pessoais, .habilidades, .idiomas { 
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+progress { 
+    width: 80%;
+    height: 1.8 rem;
+}
+
+.experiencias, .educacao { 
+padding: 1.5rem;
+background-color: #f0f0f0;
+box-shadow: 7px 7px 10px rgb(29, 29, 180);
+border-radius: 10px;
+}
+.trabalho, .curso { 
+    margin: 1.5rem 0;
+}
+
+.nomeT, .nomeC { 
+    font-size: 1.1 rem;
+    font-weight: bold;
+}
+
+.trabalho p, .educacao p { 
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.educacao { 
+    margin-top: 1rem;
+}
+
+footer p { 
+    color: white;
+}
+
+footer { 
+    background-color: rgb(29, 29, 180);
+    padding: 1.5 rem 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+footer i { 
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 32px;
+}
+
+a { 
+    text-decoration: none;
+}
